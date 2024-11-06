@@ -86,7 +86,7 @@ function init() {
 
 
   // カメラ制御
-  const orbitControls = new OrbitControls(camera, renderer.domElement);
+  const orbitControls = new OrbitControls(camera, cssRenderer.domElement);
   orbitControls.enableDumping = true;
   orbitControls.minAzimuthAngle = -Math.PI/2;
   orbitControls.maxAzimuthAngle = Math.PI/2;
